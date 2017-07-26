@@ -1,0 +1,19 @@
+.content {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.app {
+  display: inline-block;
+  background: rgba(231, 232, 224, 0.75);
+  width: 600px;
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid #989898;
+  border-radius: 5px;
+}
+.app__text {
+  font-family: sans-serif;
+  color: #387a30;
+  font-weight: 700;
+}

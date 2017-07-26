@@ -1,0 +1,46 @@
+@import "../styles/palette";
+@import "../styles/fonts";
+@import "../styles/builds";
+
+.grid {
+  display: inline-block;
+  background: @fill-color;
+  min-height: 200px;
+  max-height: 400px;
+  width: @width;
+  border: @border;
+  padding: @padding;
+  overflow: scroll;
+
+  &__btn {
+    display: inline-block;
+    padding: @padding;
+    background: transparent;
+    border: none;
+    font-family: @font-family;
+    font-size: @font-small;
+    color: @secondary-text-color;
+    font-weight: @bold;
+    text-decoration: none;
+
+    &--active {
+      display: inline-block;
+      padding: @padding;
+      background: transparent;
+      border: none;
+      font-family: @font-family;
+      font-size: @font-size;
+      color: @text-color;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    &:active,
+    &:focus,
+    &:hover {
+      font-size: 1.2em;
+      outline: none;
+      color: darkred;
+    }
+  }
+}

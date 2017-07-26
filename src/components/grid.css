@@ -1,0 +1,39 @@
+.grid {
+  display: inline-block;
+  background: #fff;
+  min-height: 200px;
+  max-height: 400px;
+  width: 500px;
+  border: 1px solid #989898;
+  padding: 15px;
+  overflow: scroll;
+}
+.grid__btn {
+  display: inline-block;
+  padding: 15px;
+  background: transparent;
+  border: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #989898;
+  font-weight: 700;
+  text-decoration: none;
+}
+.grid__btn--active {
+  display: inline-block;
+  padding: 15px;
+  background: transparent;
+  border: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+.grid__btn:active,
+.grid__btn:focus,
+.grid__btn:hover {
+  font-size: 1.2em;
+  outline: none;
+  color: darkred;
+}

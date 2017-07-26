@@ -1,0 +1,69 @@
+.task {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #000;
+  width: 100%;
+  margin: 0;
+}
+.task__general {
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+}
+.task__icon {
+  display: inline-block;
+  border: 2px solid #434343;
+  border-radius: 5px;
+  padding: 3px;
+  height: 16px;
+  width: 16px;
+  color: transparent;
+  background: #fff;
+}
+.task__icon--checked {
+  display: inline-block;
+  border: 2px solid #434343;
+  border-radius: 5px;
+  padding: 3px;
+  height: 16px;
+  width: 16px;
+  background: #387a30;
+  color: #fff;
+  font-weight: 700;
+}
+.task__delete {
+  display: inline-block;
+  padding: 15px;
+  color: #989898;
+}
+.task__delete:hover,
+.task__delete:focus {
+  font-size: 1.2em;
+  color: darkred;
+}
+.task__text {
+  display: inline-block;
+  width: 90%;
+  text-align: left;
+  margin-left: 10px;
+  line-height: 1.8em;
+  text-indent: 10px;
+}
+.task__text--checked {
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+  color: #989898;
+  text-decoration: line-through;
+  line-height: 1.8em;
+  text-indent: 10px;
+}
+.task__text--checked:hover,
+.task__text--checked:focus {
+  background: #434343;
+}
+.task__text:hover,
+.task__text:focus {
+  background: #387a30;
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "0",
+    "text": "Learn ReactJS fundamentals",
+    "isChecked": false
+  },
+  {
+    "id": "1",
+    "text": "Understand component lifecycle",
+    "isChecked": false
+  },
+  {
+    "id": "2",
+    "text": "Write notes application",
+    "isChecked": false
+  },
+  {
+    "id": "3",
+    "text": "Learn Flux",
+    "isChecked": false
+  },
+  {
+    "id": "4",
+    "text": "Be awesome",
+    "isChecked": false
+  }
+]

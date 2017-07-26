@@ -1,0 +1,25 @@
+@import "styles/palette.less";
+@import "styles/builds.less";
+@import "styles/fonts.less";
+
+.content {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.app {
+  display: inline-block;
+  background: @bg-color;
+  width: @width + 100px;
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid @secondary-text-color;
+  border-radius: 5px;
+
+  &__text {
+    font-family: @font-family;
+    color: @icon-color;
+    font-weight: @bold;
+  }
+}
